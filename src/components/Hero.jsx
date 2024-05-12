@@ -26,10 +26,10 @@ export default function Hero() {
                             initial="hidden"
                             animate="visible"
                         >
-                            Erfan Heshmati
+                            Kevin Russell
                         </motion.h1>
                         <motion.span
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
+                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent px-1"
                             variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
@@ -37,7 +37,7 @@ export default function Hero() {
                             Full Stack Developer
                         </motion.span>
                         <motion.p
-                            className="my-2 max-w-xl py-6 font-light tracking-tighter lg:tracking-normal text-justify"
+                            className="my-2 max-w-xl py-6 font-light tracking-tighter lg:tracking-normal text-justify px-1"
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
